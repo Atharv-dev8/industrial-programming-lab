@@ -1,0 +1,53 @@
+# Compiled binaries and object files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+a.out
+
+# Java compiled classes and archives
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Build directories
+build/
+bin/
+dist/
+out/
+target/
+
+# IDE and editor settings
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.project
+.classpath
+.settings/
+.metadata/
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
