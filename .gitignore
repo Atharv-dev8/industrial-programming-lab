@@ -7,6 +7,7 @@
 *.exe
 *.out
 a.out
+myexe
 
 # Java compiled classes and archives
 *.class
