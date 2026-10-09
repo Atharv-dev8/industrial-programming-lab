@@ -4,7 +4,7 @@ This document tracks progress and program counts across all conceptual modules o
 
 | Section | Status | Programs |
 |---|---|---:|
-| Logic Building | Not Started | 0 |
+| Logic Building | In Progress | 8 |
 | Arrays & Matrices | Not Started | 0 |
 | Strings | Not Started | 0 |
 | Bit Manipulation | Not Started | 0 |
@@ -23,4 +23,4 @@ This document tracks progress and program counts across all conceptual modules o
 
 ---
 
-**Total Completed Programs:** 0
+**Total Completed Programs:** 8
