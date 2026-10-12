@@ -4,7 +4,7 @@ This document tracks progress and program counts across all conceptual modules o
 
 | Section | Status | Programs |
 |---|---|---:|
-| Logic Building | In Progress | 19 |
+| Logic Building | In Progress | 35 |
 | Arrays & Matrices | Not Started | 0 |
 | Strings | Not Started | 0 |
 | Bit Manipulation | Not Started | 0 |
@@ -13,7 +13,7 @@ This document tracks progress and program counts across all conceptual modules o
 | Recursion | Not Started | 0 |
 | Data Structure Implementation | Not Started | 0 |
 | Searching & Sorting | Not Started | 0 |
-| Core Java | Not Started | 0 |
+| Core Java | In Progress | 14 |
 | Java Collections | Not Started | 0 |
 | File & System Programming | Not Started | 0 |
 | Network Programming | Not Started | 0 |
@@ -23,4 +23,4 @@ This document tracks progress and program counts across all conceptual modules o
 
 ---
 
-**Total Completed Programs:** 19
+**Total Completed Programs:** 49
