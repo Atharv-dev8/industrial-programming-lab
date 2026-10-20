@@ -70,7 +70,7 @@ The repository enforces a **Concept-First Architecture**: implementations are cl
 ```text
 industrial-programming-lab/
 ├── 01-logic-building/                    # Decision making, iterative control, mathematical logic
-│   ├── c/                                # C implementations (50 programs + Header.h)
+│   ├── c/                                # C implementations (75 programs + Header.h)
 │   └── java/                             # Java implementations (31 programs)
 ├── 02-arrays-and-matrices/               # Array operations, traversals, matrix manipulation
 ├── 03-strings/                           # Character arrays, string algorithms, parsing, tokenization
