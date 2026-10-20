@@ -65,11 +65,13 @@ The implementations in this repository cover:
 
 ## Repository Structure
 
-The repository is organized conceptually into 16 learning modules:
+The repository enforces a **Concept-First Architecture**: implementations are classified primarily by their underlying computer science concept rather than programming language. Multi-language implementations of the same topic live together under each conceptual module, organized into language subfolders (`c/`, `cpp/`, `java/`) created on demand as exercises are added:
 
 ```text
 industrial-programming-lab/
 ├── 01-logic-building/                    # Decision making, iterative control, mathematical logic
+│   ├── c/                                # C implementations (50 programs + Header.h)
+│   └── java/                             # Java implementations (31 programs)
 ├── 02-arrays-and-matrices/               # Array operations, traversals, matrix manipulation
 ├── 03-strings/                           # Character arrays, string algorithms, parsing, tokenization
 ├── 04-bit-manipulation/                  # Bitwise operations, bit masks, binary arithmetic
@@ -78,13 +80,19 @@ industrial-programming-lab/
 ├── 07-recursion/                         # Recursive algorithms, call-stack mechanics, backtracking
 ├── 08-data-structure-implementation/     # Linked lists, stacks, queues, trees, custom data structures
 ├── 09-searching-and-sorting/             # Linear/binary search, sorting algorithm implementations
-├── 10-core-java/                         # Classes, objects, inheritance, interfaces, exception handling
+├── 10-core-java/                         # Core Java language features, console I/O, runtime architecture
 ├── 11-java-collections/                  # Lists, sets, maps, queues, iterators, comparators
 ├── 12-file-and-system-programming/       # File streams, binary I/O, serialization, system utilities
 ├── 13-network-programming/               # Socket programming, TCP/UDP client-server communication
 ├── 14-multithreading/                    # Threads, synchronization, locks, concurrency utilities
-├── 15-object-oriented-design/            # OOAD, SOLID principles, class responsibility modeling
+├── 15-object-oriented-design/            # OOAD, method chaining, class responsibility modeling
 ├── 16-design-patterns-and-lld/           # Design patterns, system modeling, low-level design
+├── daily-inbox/                          # Staging inbox for daily programming exercises
+├── AGENTS.md -> GEMINI.md
+├── GEMINI.md
+├── PROGRESS.md
+├── README.md
+└── ROADMAP.md
 ```
 
 ---
