@@ -16,45 +16,53 @@ This repository maintains a structured, industrial-grade progression through fou
 
 ### A. Mandatory Concept-First Architecture
 The primary classification criterion is the program's **actual learning objective, NOT its programming language**.
-C, C++, and Java implementations of the same topic live together under that conceptual topic directory, separated only by language subfolders (`c/`, `cpp/`, `java/`):
+C, C++, Java, and JavaScript implementations of the same topic live together under that conceptual topic directory, separated only by language subfolders (`c/`, `cpp/`, `java/`, `js/`):
 
 ```text
 industrial-programming-lab/
 ├── 01-logic-building/
 │   ├── c/
 │   ├── cpp/
-│   └── java/
+│   ├── java/
+│   └── js/
 ├── 02-arrays-and-matrices/
 │   ├── c/
 │   ├── cpp/
-│   └── java/
+│   ├── java/
+│   └── js/
 ├── 03-strings/
 │   ├── c/
 │   ├── cpp/
-│   └── java/
+│   ├── java/
+│   └── js/
 ├── 04-bit-manipulation/
 │   ├── c/
 │   ├── cpp/
-│   └── java/
+│   ├── java/
+│   └── js/
 ├── 05-memory-management/
 │   ├── c/
 │   └── cpp/
 ├── 06-structures-and-generic-programming/
 │   ├── c/
 │   ├── cpp/
-│   └── java/
+│   ├── java/
+│   └── js/
 ├── 07-recursion/
 │   ├── c/
 │   ├── cpp/
-│   └── java/
+│   ├── java/
+│   └── js/
 ├── 08-data-structure-implementation/
 │   ├── c/
 │   ├── cpp/
-│   └── java/
+│   ├── java/
+│   └── js/
 ├── 09-searching-and-sorting/
 │   ├── c/
 │   ├── cpp/
-│   └── java/
+│   ├── java/
+│   └── js/
 ├── 10-core-java/
 │   └── java/
 ├── 11-java-collections/
@@ -62,19 +70,24 @@ industrial-programming-lab/
 ├── 12-file-and-system-programming/
 │   ├── c/
 │   ├── cpp/
-│   └── java/
+│   ├── java/
+│   └── js/
 ├── 13-network-programming/
 │   ├── c/
 │   ├── cpp/
-│   └── java/
+│   ├── java/
+│   └── js/
 ├── 14-multithreading/
 │   ├── c/
 │   ├── cpp/
-│   └── java/
+│   ├── java/
+│   └── js/
 ├── 15-object-oriented-design/
-│   └── java/
+│   ├── java/
+│   └── js/
 ├── 16-design-patterns-and-lld/
-│   └── java/
+│   ├── java/
+│   └── js/
 ├── daily-inbox/
 ├── README.md
 ├── PROGRESS.md
@@ -121,11 +134,12 @@ The `10-core-java/java/` directory is **exclusively** for programs whose primary
 3. **Daily Intake Scope:** Future organization applies strictly to Atharva's own newly written programs dropped into `daily-inbox/`. Never scan outside archives to find extra programs to add.
 4. **Classification & Placement:**
    - Inspect newly supplied code to identify the true conceptual focus of each program.
-   - Introductory Java exercises (arithmetic, conditionals, loops, console I/O) belong in `01-logic-building/java/`.
-   - Move files into their corresponding concept module and language subfolder (`c/`, `cpp/`, `java/`).
+   - Introductory exercises (arithmetic, conditionals, loops, console I/O) belong in `01-logic-building/` under their respective language subfolder (`c/`, `cpp/`, `java/`, `js/`).
+   - Move files into their corresponding concept module and language subfolder (`c/`, `cpp/`, `java/`, `js/`).
 5. **Naming & Source Preservation:**
    - **For C/C++ tracks:** Follow C/C++ Naming Rules (Section 3.A).
    - **For Java tracks:** Follow Java Naming & Strict Code Preservation Rules (Section 3.B).
+   - **For JavaScript tracks:** Follow JavaScript Naming & Strict Code Preservation Rules (Section 3.C).
    - Preserve all program logic, variable names, comments, whitespace, and formatting byte-for-byte.
 6. **Progress Tracking:** Update `PROGRESS.md` with accurate verified program counts. Never inflate numbers.
 7. **CRITICAL WORKFLOW BOUNDARY:**
@@ -164,6 +178,17 @@ The `10-core-java/java/` directory is **exclusively** for programs whose primary
     - Do **not** optimize code or apply coding standards automatically.
     - Do **not** modify code merely to make it compile.
   - Before and after every rename, compare original and final source code to verify that only authorized class-name changes occurred.
+
+### C. JavaScript Naming Rules & Strict Source-Code Preservation
+- **Filename convention:** Use lowercase, descriptive, hyphen-separated filenames with sequence numbers (`NN-descriptive-name.js`) to match procedural script conventions, or descriptive kebab-case names reflecting the conceptual problem.
+  - *Examples:* `01-display-message.js`, `02-addition-user-input.js`, `03-check-even-odd.js`.
+- **Runtime & Environment:** Designed for execution via standard Node.js runtime (`node script.js`).
+  - Do not introduce unnecessary frontend frameworks, browser dependencies, package managers (`package.json`, `package-lock.json`, `node_modules`), or build tooling for basic programming exercises.
+  - Do not treat general JavaScript problem-solving exercises as frontend projects.
+- **Strict Source-Code Preservation:**
+  - Preserve all original JavaScript logic, algorithms, variable declarations (`var`, `let`, `const`), function signatures, comments, whitespace, and formatting byte-for-byte.
+  - Do **not** refactor, reformat, modernize syntax (e.g. converting `var` to `let`/`const` or traditional functions to arrow functions), fix bugs, or add unrequested dependencies.
+  - Never convert JavaScript programs to another language or vice-versa.
 
 ---
 
@@ -233,7 +258,7 @@ Format:
 Choose a scope that accurately identifies the concept or area changed:
 - `arithmetic`, `arrays`, `strings`, `bit-manipulation`, `memory`, `conditionals`
 - `functions`, `recursion`, `structures`, `pointers`, `searching`, `sorting`
-- `trees`, `java-oop`, `collections`, `threads`, `network`, `lld`
+- `trees`, `java-oop`, `javascript`, `collections`, `threads`, `network`, `lld`
 - `progress`, `organization`, `config`
 
 #### Descriptions
