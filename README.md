@@ -35,6 +35,7 @@ The implementations in this repository cover:
 - **C**
 - **C++**
 - **Java**
+- **JavaScript**
 
 ---
 
@@ -65,14 +66,16 @@ The implementations in this repository cover:
 
 ## Repository Structure
 
-The repository enforces a **Concept-First Architecture**: implementations are classified primarily by their underlying computer science concept rather than programming language. Multi-language implementations of the same topic live together under each conceptual module, organized into language subfolders (`c/`, `cpp/`, `java/`) created on demand as exercises are added:
+The repository enforces a **Concept-First Architecture**: implementations are classified primarily by their underlying computer science concept rather than programming language. Multi-language implementations of the same topic live together under each conceptual module, organized into language subfolders (`c/`, `cpp/`, `java/`, `js/`) created on demand as exercises are added:
 
 ```text
 industrial-programming-lab/
 ├── 01-logic-building/                    # Decision making, iterative control, mathematical logic
-│   ├── c/                                # C implementations (75 programs + Header.h)
-│   └── java/                             # Java implementations (31 programs)
+│   ├── c/                                # C implementations (84 programs + Header.h)
+│   ├── java/                             # Java implementations (45 programs)
+│   └── js/                               # JavaScript implementations (27 programs)
 ├── 02-arrays-and-matrices/               # Array operations, traversals, matrix manipulation
+│   └── js/                               # JavaScript implementations (4 programs)
 ├── 03-strings/                           # Character arrays, string algorithms, parsing, tokenization
 ├── 04-bit-manipulation/                  # Bitwise operations, bit masks, binary arithmetic
 ├── 05-memory-management/                 # Pointers, dynamic memory allocation, memory layouts
