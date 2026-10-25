@@ -6,7 +6,7 @@ Programs are organized under a **Concept-First Architecture**, where implementat
 
 | Module | Status | C | C++ | Java | JavaScript | Total |
 |---|---|---:|---:|---:|---:|---:|
-| 01. Logic Building | In Progress | 84 | 0 | 45 | 27 | 156 |
+| 01. Logic Building | In Progress | 107 | 0 | 45 | 27 | 179 |
 | 02. Arrays & Matrices | In Progress | 0 | 0 | 0 | 4 | 4 |
 | 03. Strings | Not Started | 0 | 0 | 0 | 0 | 0 |
 | 04. Bit Manipulation | Not Started | 0 | 0 | 0 | 0 | 0 |
@@ -22,13 +22,13 @@ Programs are organized under a **Concept-First Architecture**, where implementat
 | 14. Multithreading | Not Started | 0 | 0 | 0 | 0 | 0 |
 | 15. Object-Oriented Design | Not Started | 0 | 0 | 0 | 0 | 0 |
 | 16. Design Patterns & LLD | Not Started | 0 | 0 | 0 | 0 | 0 |
-| **Total** | | **84** | **0** | **45** | **31** | **160** |
+| **Total** | | **107** | **0** | **45** | **31** | **183** |
 
 ---
 
-- **Total Completed Implementations:** 160 programs *(+ 1 shared C header file = 161 total source files)*
+- **Total Completed Implementations:** 183 programs *(+ 1 shared C header file = 184 total source files)*
 - **Language Breakdown:**
-  - **C:** 84 programs (+ 1 header)
+  - **C:** 107 programs (+ 1 header)
   - **C++:** 0 programs
   - **Java:** 45 programs
   - **JavaScript:** 31 programs
