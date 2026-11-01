@@ -77,6 +77,7 @@ industrial-programming-lab/
 ├── 02-arrays-and-matrices/               # Array operations, traversals, matrix manipulation
 │   └── js/                               # JavaScript implementations (4 programs)
 ├── 03-strings/                           # Character arrays, string algorithms, parsing, tokenization
+│   └── c/                                # C implementations (38 programs)
 ├── 04-bit-manipulation/                  # Bitwise operations, bit masks, binary arithmetic
 ├── 05-memory-management/                 # Pointers, dynamic memory allocation, memory layouts
 ├── 06-structures-and-generic-programming/# C structs, unions, function pointers, C++ templates
