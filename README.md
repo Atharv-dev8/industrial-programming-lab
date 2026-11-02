@@ -81,6 +81,8 @@ industrial-programming-lab/
 ├── 04-bit-manipulation/                  # Bitwise operations, bit masks, binary arithmetic
 ├── 05-memory-management/                 # Pointers, dynamic memory allocation, memory layouts
 ├── 06-structures-and-generic-programming/# C structs, unions, function pointers, C++ templates
+│   ├── c/                                # C implementations (1 program)
+│   └── cpp/                              # C++ implementations (24 programs)
 ├── 07-recursion/                         # Recursive algorithms, call-stack mechanics, backtracking
 ├── 08-data-structure-implementation/     # Linked lists, stacks, queues, trees, custom data structures
 ├── 09-searching-and-sorting/             # Linear/binary search, sorting algorithm implementations
